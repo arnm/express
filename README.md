@@ -10,11 +10,18 @@ To create a new project:
 ```
 lein new express sample
 cd sample
+npm init
+npm install express --save-dev
 ```
 
 To compile ClojureScript:
 ```
 lein cljsbuild auto
+```
+
+To run server:
+```
+node express sample.js
 ```
 
 ## License

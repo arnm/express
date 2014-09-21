@@ -5,4 +5,5 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :scm {:name "git"
         :url "https://github.com/arnm/express"}
+  :deploy-repositories  [["clojars"  {:creds :gpg}]]
   :eval-in-leiningen true)
