@@ -12,5 +12,5 @@
     (main/info "Generating fresh 'lein new' cljs-express project.")
     (->files data
              [".gitignore" (render "gitignore" data)]
-             ["project.cljs" (render "project.cljs" data)]
+             ["project.clj" (render "project.clj" data)]
              ["src/{{sanitized}}/core.cljs" (render "core.cljs" data)])))
