@@ -21,7 +21,7 @@ lein cljsbuild auto
 
 To run server:
 ```
-node express sample.js
+node sample.js
 ```
 
 ## License
