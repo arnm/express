@@ -1,4 +1,4 @@
-(defproject express/lein-template "0.1.0-SNAPSHOT"
+(defproject express/lein-template "0.1.0"
   :description "A minimal ClojureScript ExpressJS project template"
   :url "http://github.com/arnm/express"
   :license {:name "Eclipse Public License"
