@@ -1,4 +1,4 @@
-(ns {{name}} .core
+(ns {{name}}.core
   (:require [cljs.nodejs :as n]))
 
 (enable-console-print!)

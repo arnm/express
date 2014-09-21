@@ -1,15 +1,15 @@
-(ns leiningen.new.cljs-express
+(ns leiningen.new.express
   (:require [leiningen.new.templates :refer [renderer name-to-path ->files]]
             [leiningen.core.main :as main]))
 
-(def render (renderer "cljs-express"))
+(def render (renderer "express"))
 
-(defn cljs-express
+(defn express
   "FIXME: write documentation"
   [name]
   (let [data {:name name
               :sanitized (name-to-path name)}]
-    (main/info "Generating fresh 'lein new' cljs-express project.")
+    (main/info "Generating fresh 'lein new' express project.")
     (->files data
              [".gitignore" (render "gitignore" data)]
              ["project.clj" (render "project.clj" data)]

@@ -14,6 +14,6 @@
               :source-paths ["src"]
               :compiler {
                 :target :nodejs
-                :output-to "{{sanitized.js}}"
+                :output-to "{{sanitized}}.js"
                 :output-dir "out"
                 :optimizations :simple}}]})
