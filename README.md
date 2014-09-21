@@ -2,9 +2,20 @@
 
 A Leiningen template for a minimal ClojureScript ExpressJS project.
 
+[![Clojars Project](http://clojars.org/express/lein-template/latest-version.svg)](http://clojars.org/express/lein-template)
+
 ## Usage
 
-```lein new express hello-express```
+To create a new project:
+```
+lein new express sample
+cd sample
+```
+
+To compile ClojureScript:
+```
+lein cljsbuild auto
+```
 
 ## License
 
